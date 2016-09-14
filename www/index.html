@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
@@ -9,13 +10,19 @@
   <!-- CSSs -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/">
+  
   <!-- -->
-  <title>Hello World</title>
+
+  <title>Probando cordova</title>
 </head>
 
 <body>
-
-
+  <div class="container">
+    <button id="btnFoto" type="button" class="btn btn-block btn-primary">
+      <span class="glyphicon glyphicon-camera"></span> Foto!!
+    </button>
+  </div>
   <!-- JavaScripts -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
